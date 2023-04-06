@@ -58,3 +58,14 @@ Create a schedule to stop EC2 with Amazon EventBrige
 16. On Setting, <b>Retry policy and dead-letter queue (DLQ)</b> keep default value
 17. On Settings, <b>Permission</b> choose <b>Create new role for this schedule</b> and then enter role name such as <b>EventBridge-Lambda-EC2</b> (You can choose <b>Use existing role</b> if you created role before) and then click <b>Next</b>
 18. On <b>Review and create schedule</b> click <b>Create schedule</b>
+
+## Run local
+
+1. Need install Sam cli and Docker desktop
+2. Open Docker desktop
+3. Run command `sam local invoke [function_name] -e [event_path] eg: sam local invoke StopEC2ByIds -e events/event.json`
+
+## Deploy
+
+1. Run command `sam build`
+2. Run command `sam deploy --guided`

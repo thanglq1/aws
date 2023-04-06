@@ -4,9 +4,12 @@ import { EC2Client } from "@aws-sdk/client-ec2";
 // Replace your region
 const REGION = "ap-southeast-2";
 // Replace your EC2 instances ids need stop
-const INSTANCE_IDS = ["i-0d55dfb39a2205651"];
+const INSTANCE_IDS = ["i-07bd48e03f4cfde6a"];
 
 export const handler = async (event, context) => {
+  console.log(event["key1"]);
+  console.log(event["key2"]);
+
   const command = new StopInstancesCommand({
     InstanceIds: INSTANCE_IDS,
   });

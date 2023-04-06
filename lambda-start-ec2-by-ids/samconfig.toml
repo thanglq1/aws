@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "lambda-start-ec2-by-ids"
+resolve_s3 = true
+s3_prefix = "lambda-start-ec2-by-ids"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
