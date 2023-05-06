@@ -79,7 +79,11 @@ Permissions for lambda
 ## Ref
 
 https://aws.amazon.com/blogs/compute/using-lambda-layers-to-simplify-your-development-process/
+
 https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html#configuration-layers-using
+
 https://github.com/aws-samples/aws-lambda-layers-aws-sam-examples
+
 https://repost.aws/knowledge-center/lambda-execution-role-s3-bucket
+
 https://aws.amazon.com/blogs/mobile/how-to-use-lambda-layers-with-the-amplify-cli/
