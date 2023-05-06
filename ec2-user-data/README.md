@@ -20,4 +20,5 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ## Ref
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html
+
 https://www.geeksforgeeks.org/create-an-ec2-instance-with-ec2-user-data-script-to-launch-website/
